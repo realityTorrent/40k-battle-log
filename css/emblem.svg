@@ -1,0 +1,73 @@
+<svg width="200" height="200" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="emblemTitle">
+<title id="emblemTitle">Skull emblem with wings and radiating sunburst</title>
+<defs>
+<radialGradient id="glow" cx="50%" cy="45%" r="55%">
+<stop offset="0%" stop-color="#3a2a12"/>
+<stop offset="100%" stop-color="#0a0908"/>
+</radialGradient>
+</defs>
+
+<circle cx="100" cy="100" r="96" fill="url(#glow)"/>
+
+<g fill="#c9a227">
+<g id="rays">
+<path d="M100 8 L104 34 L96 34 Z"/>
+</g>
+<use href="#rays" transform="rotate(30 100 100)"/>
+<use href="#rays" transform="rotate(60 100 100)"/>
+<use href="#rays" transform="rotate(90 100 100)"/>
+<use href="#rays" transform="rotate(120 100 100)"/>
+<use href="#rays" transform="rotate(150 100 100)"/>
+<use href="#rays" transform="rotate(180 100 100)"/>
+<use href="#rays" transform="rotate(210 100 100)"/>
+<use href="#rays" transform="rotate(240 100 100)"/>
+<use href="#rays" transform="rotate(270 100 100)"/>
+<use href="#rays" transform="rotate(300 100 100)"/>
+<use href="#rays" transform="rotate(330 100 100)"/>
+</g>
+
+<g>
+<path d="M62 96 Q30 88 20 62 Q14 44 24 30 Q26 48 40 58 Q30 62 34 74 Q22 66 20 52 Q22 74 42 82 Q30 80 26 70 Q34 92 62 96 Z" fill="#d9cfb8" stroke="#5c451f" stroke-width="1"/>
+<path d="M138 96 Q170 88 180 62 Q186 44 176 30 Q174 48 160 58 Q170 62 166 74 Q178 66 180 52 Q178 74 158 82 Q170 80 174 70 Q166 92 138 96 Z" fill="#d9cfb8" stroke="#5c451f" stroke-width="1"/>
+</g>
+
+<path d="M100 52 Q72 52 66 82 Q64 100 72 112 L68 128 Q68 138 78 140 L78 152 L86 152 L86 142 L94 142 L94 152 L106 152 L106 142 L114 142 L114 152 L122 152 L122 140 Q132 138 132 128 L128 112 Q136 100 134 82 Q128 52 100 52 Z"
+  fill="#e8e0cc" stroke="#3a2c18" stroke-width="1.6" stroke-linejoin="round"/>
+
+<path d="M76 88 L92 84 L92 100 L82 106 Z" fill="#0a0908"/>
+<path d="M124 88 L108 84 L108 100 L118 106 Z" fill="#0a0908"/>
+<path d="M100 100 L94 116 L106 116 Z" fill="#0a0908"/>
+
+<g stroke="#3a2c18" stroke-width="0.8" fill="none">
+<path d="M74 128 L126 128"/>
+</g>
+<g fill="#3a2c18">
+<rect x="80" y="140" width="4" height="10"/>
+<rect x="88" y="140" width="4" height="12"/>
+<rect x="96" y="140" width="4" height="12"/>
+<rect x="108" y="140" width="4" height="12"/>
+<rect x="116" y="140" width="4" height="10"/>
+</g>
+
+<circle cx="100" cy="100" r="96" fill="none" stroke="#c9a227" stroke-width="2"/>
+<circle cx="100" cy="100" r="88" fill="none" stroke="#6b5330" stroke-width="1"/>
+
+<g fill="#c9a227">
+<circle cx="100" cy="6" r="2.6"/>
+<circle cx="100" cy="194" r="2.6"/>
+<circle cx="6" cy="100" r="2.6"/>
+<circle cx="194" cy="100" r="2.6"/>
+<circle cx="32" cy="32" r="2.2"/>
+<circle cx="168" cy="32" r="2.2"/>
+<circle cx="32" cy="168" r="2.2"/>
+<circle cx="168" cy="168" r="2.2"/>
+<circle cx="68" cy="11" r="1.8"/>
+<circle cx="132" cy="11" r="1.8"/>
+<circle cx="68" cy="189" r="1.8"/>
+<circle cx="132" cy="189" r="1.8"/>
+<circle cx="11" cy="68" r="1.8"/>
+<circle cx="11" cy="132" r="1.8"/>
+<circle cx="189" cy="68" r="1.8"/>
+<circle cx="189" cy="132" r="1.8"/>
+</g>
+</svg>

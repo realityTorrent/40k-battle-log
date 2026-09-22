@@ -47,6 +47,13 @@ header {
   position: relative;
 }
 
+.emblem {
+  display: block;
+  margin: 0 auto 0.75rem;
+  width: 88px;
+  height: 88px;
+}
+
 header::after {
   content: '';
   position: absolute;
