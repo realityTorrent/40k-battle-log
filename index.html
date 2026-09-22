@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self'; img-src 'self' data:; base-uri 'none'; form-action 'none'">
+  <title>40K Battle Log</title>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <header>
+    <h1>40K Battle Log</h1>
+  </header>
+
+  <main>
+    <section id="entry-form-section">
+      <h2>Log a Game</h2>
+      <ul id="form-errors"></ul>
+      <form id="entry-form">
+        <div class="field">
+          <label for="mission">Mission</label>
+          <input type="text" id="mission" name="mission" required>
+        </div>
+
+        <div id="players">
+          <div class="player-row">
+            <label>Player</label>
+            <input type="text" class="player-name" placeholder="Name" required>
+            <input type="text" class="player-faction" placeholder="Faction" required>
+            <input type="number" class="player-score" placeholder="Score" min="0" required>
+            <button type="button" class="remove-player-btn">Remove</button>
+          </div>
+          <div class="player-row">
+            <label>Player</label>
+            <input type="text" class="player-name" placeholder="Name" required>
+            <input type="text" class="player-faction" placeholder="Faction" required>
+            <input type="number" class="player-score" placeholder="Score" min="0" required>
+            <button type="button" class="remove-player-btn">Remove</button>
+          </div>
+        </div>
+
+        <button type="button" id="add-player-btn">Add player</button>
+
+        <div class="field">
+          <label for="winner">Winner</label>
+          <select id="winner" name="winner" required>
+            <option value="">-- Select winner --</option>
+            <option value="Draw">Draw</option>
+          </select>
+        </div>
+
+        <div class="field">
+          <label for="notes">Notes</label>
+          <textarea id="notes" name="notes"></textarea>
+        </div>
+
+        <button type="submit">Log Game</button>
+      </form>
+    </section>
+
+    <template id="player-row-template">
+      <div class="player-row">
+        <label>Player</label>
+        <input type="text" class="player-name" placeholder="Name" required>
+        <input type="text" class="player-faction" placeholder="Faction" required>
+        <input type="number" class="player-score" placeholder="Score" min="0" required>
+        <button type="button" class="remove-player-btn">Remove</button>
+      </div>
+    </template>
+
+    <section id="game-list-section">
+      <h2>Game History</h2>
+      <button type="button" id="export-btn">Export results</button>
+      <p id="export-status"></p>
+      <p id="game-list-empty">No games logged yet — add your first result above</p>
+      <ul id="game-list"></ul>
+    </section>
+
+    <section id="game-detail" hidden>
+      <h2>Game Detail</h2>
+      <button type="button" id="back-to-list-btn">Back to list</button>
+      <div id="game-detail-content"></div>
+    </section>
+  </main>
+
+  <script src="js/storage.js"></script>
+  <script src="js/data-source.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>
