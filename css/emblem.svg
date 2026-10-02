@@ -1,89 +1,71 @@
 <svg width="200" height="200" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="emblemTitle">
-<title id="emblemTitle">Skull with glowing red eyes over crossed swords, inside a gold gear ring</title>
+<title id="emblemTitle">Winged sword inside an engraved bezel ring</title>
 <defs>
 <linearGradient id="gold" x1="0" y1="0" x2="1" y2="1">
-<stop offset="0%" stop-color="#f4d77a"/>
-<stop offset="50%" stop-color="#c9a227"/>
-<stop offset="100%" stop-color="#7a5c1a"/>
+<stop offset="0%" stop-color="#d9bb62"/>
+<stop offset="55%" stop-color="#a8832a"/>
+<stop offset="100%" stop-color="#5a4214"/>
 </linearGradient>
 <linearGradient id="steel" x1="0" y1="0" x2="1" y2="0">
-<stop offset="0%" stop-color="#6f7680"/>
-<stop offset="50%" stop-color="#eef1f4"/>
-<stop offset="100%" stop-color="#6f7680"/>
+<stop offset="0%" stop-color="#6c727b"/>
+<stop offset="50%" stop-color="#d6dadf"/>
+<stop offset="100%" stop-color="#5d636c"/>
 </linearGradient>
-<radialGradient id="disc" cx="50%" cy="45%" r="60%">
-<stop offset="0%" stop-color="#3b2410"/>
-<stop offset="100%" stop-color="#0b0807"/>
+<radialGradient id="disc" cx="50%" cy="50%" r="60%">
+<stop offset="0%" stop-color="#1c1409"/>
+<stop offset="100%" stop-color="#070605"/>
 </radialGradient>
-<radialGradient id="aura" cx="50%" cy="50%" r="50%">
-<stop offset="0%" stop-color="#d0301f" stop-opacity="0.75"/>
-<stop offset="100%" stop-color="#d0301f" stop-opacity="0"/>
-</radialGradient>
-<radialGradient id="bone" cx="50%" cy="38%" r="65%">
-<stop offset="0%" stop-color="#f8f1de"/>
-<stop offset="60%" stop-color="#d9ceb2"/>
-<stop offset="100%" stop-color="#9c8d6a"/>
-</radialGradient>
-<radialGradient id="eye" cx="50%" cy="50%" r="50%">
-<stop offset="0%" stop-color="#ffd2b8"/>
-<stop offset="35%" stop-color="#ff3a22"/>
-<stop offset="100%" stop-color="#7a0d08" stop-opacity="0"/>
-</radialGradient>
-<g id="tooth">
-<rect x="95" y="2" width="10" height="10" rx="1.5" fill="url(#gold)" stroke="#5c4413" stroke-width="0.8"/>
+<g id="ticks">
+<line x1="100" y1="5" x2="100" y2="11" stroke="#a8832a" stroke-width="1.4"/>
+<line x1="100" y1="189" x2="100" y2="195" stroke="#a8832a" stroke-width="1.4"/>
 </g>
-<g id="sword">
-<polygon points="100,22 107,38 107,118 93,118 93,38" fill="url(#steel)" stroke="#3b4048" stroke-width="0.8"/>
-<line x1="100" y1="36" x2="100" y2="116" stroke="#59606a" stroke-width="1.6"/>
-<path d="M76 118 L124 118 L120 127 L80 127 Z" fill="url(#gold)" stroke="#5c4413" stroke-width="1"/>
-<rect x="96" y="127" width="8" height="40" fill="#4a1212" stroke="#240808" stroke-width="1"/>
-<line x1="96" y1="136" x2="104" y2="136" stroke="#c9a227" stroke-width="1.2"/>
-<line x1="96" y1="146" x2="104" y2="146" stroke="#c9a227" stroke-width="1.2"/>
-<line x1="96" y1="156" x2="104" y2="156" stroke="#c9a227" stroke-width="1.2"/>
-<circle cx="100" cy="173" r="7" fill="url(#gold)" stroke="#5c4413" stroke-width="1"/>
+<g id="ray">
+<line x1="100" y1="22" x2="100" y2="178" stroke="#a8832a" stroke-width="0.6" opacity="0.35"/>
+</g>
+<g id="wing">
+<g transform="rotate(-52)"><path d="M0 0 L7 -6 L44 0 L7 6 Z" fill="url(#gold)" stroke="#2c200a" stroke-width="0.9" stroke-linejoin="round"/><line x1="6" y1="0" x2="40" y2="0" stroke="#2c200a" stroke-width="0.7"/></g>
+<g transform="rotate(-36)"><path d="M0 0 L8 -7 L58 0 L8 7 Z" fill="url(#gold)" stroke="#2c200a" stroke-width="0.9" stroke-linejoin="round"/><line x1="6" y1="0" x2="54" y2="0" stroke="#2c200a" stroke-width="0.7"/></g>
+<g transform="rotate(-20)"><path d="M0 0 L8 -7 L66 0 L8 7 Z" fill="url(#gold)" stroke="#2c200a" stroke-width="0.9" stroke-linejoin="round"/><line x1="6" y1="0" x2="62" y2="0" stroke="#2c200a" stroke-width="0.7"/></g>
+<g transform="rotate(-5)"><path d="M0 0 L8 -7 L64 0 L8 7 Z" fill="url(#gold)" stroke="#2c200a" stroke-width="0.9" stroke-linejoin="round"/><line x1="6" y1="0" x2="60" y2="0" stroke="#2c200a" stroke-width="0.7"/></g>
+<g transform="rotate(10)"><path d="M0 0 L7 -6 L54 0 L7 6 Z" fill="url(#gold)" stroke="#2c200a" stroke-width="0.9" stroke-linejoin="round"/><line x1="6" y1="0" x2="50" y2="0" stroke="#2c200a" stroke-width="0.7"/></g>
+<g transform="rotate(24)"><path d="M0 0 L6 -5 L40 0 L6 5 Z" fill="url(#gold)" stroke="#2c200a" stroke-width="0.9" stroke-linejoin="round"/><line x1="5" y1="0" x2="36" y2="0" stroke="#2c200a" stroke-width="0.7"/></g>
 </g>
 </defs>
 
-<use href="#tooth"/>
-<use href="#tooth" transform="rotate(22.5 100 100)"/>
-<use href="#tooth" transform="rotate(45 100 100)"/>
-<use href="#tooth" transform="rotate(67.5 100 100)"/>
-<use href="#tooth" transform="rotate(90 100 100)"/>
-<use href="#tooth" transform="rotate(112.5 100 100)"/>
-<use href="#tooth" transform="rotate(135 100 100)"/>
-<use href="#tooth" transform="rotate(157.5 100 100)"/>
-<use href="#tooth" transform="rotate(180 100 100)"/>
-<use href="#tooth" transform="rotate(202.5 100 100)"/>
-<use href="#tooth" transform="rotate(225 100 100)"/>
-<use href="#tooth" transform="rotate(247.5 100 100)"/>
-<use href="#tooth" transform="rotate(270 100 100)"/>
-<use href="#tooth" transform="rotate(292.5 100 100)"/>
-<use href="#tooth" transform="rotate(315 100 100)"/>
-<use href="#tooth" transform="rotate(337.5 100 100)"/>
+<circle cx="100" cy="100" r="97" fill="url(#disc)"/>
+<use href="#ticks"/>
+<use href="#ticks" transform="rotate(15 100 100)"/>
+<use href="#ticks" transform="rotate(30 100 100)"/>
+<use href="#ticks" transform="rotate(45 100 100)"/>
+<use href="#ticks" transform="rotate(60 100 100)"/>
+<use href="#ticks" transform="rotate(75 100 100)"/>
+<use href="#ticks" transform="rotate(90 100 100)"/>
+<use href="#ticks" transform="rotate(105 100 100)"/>
+<use href="#ticks" transform="rotate(120 100 100)"/>
+<use href="#ticks" transform="rotate(135 100 100)"/>
+<use href="#ticks" transform="rotate(150 100 100)"/>
+<use href="#ticks" transform="rotate(165 100 100)"/>
+<circle cx="100" cy="100" r="97" fill="none" stroke="url(#gold)" stroke-width="2.4"/>
+<circle cx="100" cy="100" r="90" fill="none" stroke="#6b5330" stroke-width="1"/>
+<circle cx="100" cy="100" r="80" fill="none" stroke="#8a1c14" stroke-width="1.4"/>
 
-<circle cx="100" cy="100" r="90" fill="url(#disc)" stroke="url(#gold)" stroke-width="6"/>
-<circle cx="100" cy="100" r="82" fill="none" stroke="#6b5330" stroke-width="1"/>
+<use href="#ray"/>
+<use href="#ray" transform="rotate(30 100 100)"/>
+<use href="#ray" transform="rotate(60 100 100)"/>
+<use href="#ray" transform="rotate(90 100 100)"/>
+<use href="#ray" transform="rotate(120 100 100)"/>
+<use href="#ray" transform="rotate(150 100 100)"/>
 
-<use href="#sword" transform="rotate(45 100 100)"/>
-<use href="#sword" transform="rotate(-45 100 100)"/>
+<use href="#wing" transform="translate(110 94)"/>
+<use href="#wing" transform="translate(90 94) scale(-1 1)"/>
 
-<circle cx="100" cy="98" r="58" fill="url(#aura)"/>
-
-<path d="M100 54 C78 54 64 70 64 92 C64 104 69 112 76 117 L76 126 C76 131 80 134 85 134 L85 144 L93 144 L93 137 L97 137 L97 144 L103 144 L103 137 L107 137 L107 144 L115 144 L115 134 C120 134 124 131 124 126 L124 117 C131 112 136 104 136 92 C136 70 122 54 100 54 Z" fill="url(#bone)" stroke="#241808" stroke-width="2" stroke-linejoin="round"/>
-
-<path d="M67 86 Q100 72 133 86" fill="none" stroke="#5c4a2a" stroke-width="1.4" opacity="0.5"/>
-<path d="M112 57 L108 68 L113 76 L109 86" fill="none" stroke="#3a2a14" stroke-width="1.2" stroke-linecap="round"/>
-<path d="M79 119 L83 129" fill="none" stroke="#5c4a2a" stroke-width="1.2" opacity="0.5"/>
-<path d="M121 119 L117 129" fill="none" stroke="#5c4a2a" stroke-width="1.2" opacity="0.5"/>
-
-<path d="M70 88 L96 84 L97 106 L84 112 L72 104 Z" fill="#120606"/>
-<path d="M130 88 L104 84 L103 106 L116 112 L128 104 Z" fill="#120606"/>
-<circle cx="86" cy="98" r="8" fill="url(#eye)"/>
-<circle cx="114" cy="98" r="8" fill="url(#eye)"/>
-
-<path d="M100 108 L95 124 L100 121 L105 124 Z" fill="#120606"/>
-
-<polygon points="100,59 106,66 100,73 94,66" fill="#d0301f" stroke="url(#gold)" stroke-width="1.6"/>
-<polygon points="100,62 102.5,66 100,70 97.5,66" fill="#ff8a70" opacity="0.8"/>
-
+<polygon points="100,20 105,34 105,112 95,112 95,34" fill="url(#steel)" stroke="#2a2d32" stroke-width="1"/>
+<line x1="100" y1="32" x2="100" y2="110" stroke="#4a5058" stroke-width="1.6"/>
+<path d="M74 112 L126 112 L122 120 L108 121 L100 125 L92 121 L78 120 Z" fill="url(#gold)" stroke="#2c200a" stroke-width="1" stroke-linejoin="round"/>
+<path d="M74 112 L70 108 L76 111 Z M126 112 L130 108 L124 111 Z" fill="#a8832a"/>
+<rect x="96.5" y="121" width="7" height="30" fill="#2a0e0b" stroke="#120504" stroke-width="1"/>
+<line x1="96.5" y1="129" x2="103.5" y2="129" stroke="#a8832a" stroke-width="1"/>
+<line x1="96.5" y1="137" x2="103.5" y2="137" stroke="#a8832a" stroke-width="1"/>
+<line x1="96.5" y1="145" x2="103.5" y2="145" stroke="#a8832a" stroke-width="1"/>
+<polygon points="100,151 106,158 100,168 94,158" fill="url(#gold)" stroke="#2c200a" stroke-width="1" stroke-linejoin="round"/>
 </svg>
