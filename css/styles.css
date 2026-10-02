@@ -50,8 +50,8 @@ header {
 .emblem {
   display: block;
   margin: 0 auto 0.75rem;
-  width: 88px;
-  height: 88px;
+  width: 108px;
+  height: 108px;
 }
 
 header::after {
